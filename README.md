@@ -12,5 +12,7 @@ For usage and arguments please see: https://github.com/walkerk1980/AWSCredsProfi
 
 For more info on AWS config and credentials files please see the AWS Documentation. [1][2]
 
+
 [1] Named Profiles - https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html
+
 [2] AWS Config/Credential File Format - https://docs.aws.amazon.com/cli/latest/topic/config-vars.html
