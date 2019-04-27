@@ -8,5 +8,5 @@ awsprofilemanager.py -r us-west-2 -a AKID0123456789012 -s 'YourSecretAccessKey/k
 awsprofilemanager.py -p saml -r us-east-1 -a AKID0123456789012 -s 'YourSecretAccessKey/klngs/a49nunf98494n' -t 'YourSessionToken/d932u98unf43/a93uh'
 
 
-For usage and arguments please see: https://./README.txt
+For usage and arguments please see: https://github.com/walkerk1980/AWSCredsProfileManager/blob/master/README.txt
 
