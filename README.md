@@ -18,6 +18,9 @@ For more info on AWS config and credentials files please see the AWS Documentati
 [2] AWS Config/Credential File Format - https://docs.aws.amazon.com/cli/latest/topic/config-vars.html
 
 
+
+Argument list:
+
 '-p', '--profile', nargs='?', const='NO', default='default', help='The name of the profile to create or overwrite'
 
 '-r', '--region', nargs='?', const='NO', choices=REGION_CHOICES, help='the region to set for the profile'
