@@ -19,16 +19,29 @@ For more info on AWS config and credentials files please see the AWS Documentati
 
 
 '-p', '--profile', nargs='?', const='NO', default='default', help='The name of the profile to create or overwrite'
+
 '-r', '--region', nargs='?', const='NO', choices=REGION_CHOICES, help='the region to set for the profile'
+
 '-a', '--access-key-id', nargs='?', const='NO', help='AccessKeyID to set in the profile'
+
 '-s', '--secret-access-key', nargs='?', const='NO', help='The SecretAccessKey to set for the profile'
+
 '-t', '--session-token', nargs='?', const='NO', help='The SessionToken to set for the profile'
+
 '-o', '--output', nargs='?', const='NO', choices=OUTPUT_CHOICES, help='Default output style'
+
 '-R', '--role-arn', nargs='?', const='NO', help='The ARN of the Role to set for the profile to assume'
+
 '-S', '--role-session-name', nargs='?', const='NO', help='The Role Session Name to set for the profile to use'
+
 '-P', '--source-profile', nargs='?', const='NO', help='The name of the source profile to set'
+
 '-c', '--credential-source', nargs='?', const='NO', choices=CREDSOURCE_CHOICES, help='The credential provider to use to get credentials for the initial assume-role call'
+
 '-e', '--external-id', nargs='?', const='NO', help='A unique identifier that is used by third parties to assume a role'
+
 '-m', '--mfa-serial', nargs='?', const='NO', help='The identification number of the MFA device to use when assuming a role'
+
 '-f', '--config-file-path', nargs='?', const='NO', default=os.path.expanduser('~/.aws/config'), help='Path to he file to create the profile in, defaults to ~/.aws/config'
+
 '-d', '--duration-seconds', nargs='?', const='NO', type=int, help='The duration, in seconds (900..max_session_duration) of the role session. Default=3600'
